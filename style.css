@@ -74,9 +74,15 @@ h2 { font-family: "Gowun Batang", serif; font-size: 26px; line-height: 1.35; mar
   width: 34px; height: 34px; border-radius: 50%; background: var(--primary); color: #fff;
   display: grid; place-items: center; font-weight: 700;
 }
-.story { background: var(--surface); border-left: 6px solid var(--lamp); border-radius: 12px; padding: 4px 20px; font-size: 17px; }
-.story p { margin: 16px 0; }
-.story strong { color: var(--primary-dark); }
+.story { display: grid; gap: 14px; }
+.chapter { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 18px 20px; }
+.chapter h3 { font-size: 20px; line-height: 1.4; margin: 0 0 8px; color: var(--primary-dark); }
+.chapter p { margin: 0 0 6px; font-size: 17px; line-height: 1.7; }
+.chapter p:last-child { margin-bottom: 0; }
+.gives { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.gives li { background: var(--primary-soft); border-radius: 12px; padding: 12px 14px; font-size: 17px; line-height: 1.6; }
+.gives strong { display: block; color: var(--primary); font-size: 15px; }
+.closing { margin: 6px 0 0; padding: 18px 20px; border-left: 6px solid var(--lamp); background: var(--surface); border-radius: 12px; font-family: "Gowun Batang", serif; font-weight: 700; font-size: 20px; line-height: 1.5; }
 
 /* 바닥 */
 footer { margin-top: 48px; background: var(--surface); border-top: 1px solid var(--line); padding: 28px 0 40px; font-size: 15px; color: var(--muted); }

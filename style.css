@@ -84,6 +84,12 @@ h2 { font-family: "Gowun Batang", serif; font-size: 26px; line-height: 1.35; mar
 .gives strong { display: block; color: var(--primary); font-size: 15px; }
 .closing { margin: 6px 0 0; padding: 18px 20px; border-left: 6px solid var(--lamp); background: var(--surface); border-radius: 12px; font-family: "Gowun Batang", serif; font-weight: 700; font-size: 20px; line-height: 1.5; }
 
+.soon { background: var(--primary); color: #fff; border-radius: 16px; padding: 20px; }
+.soon-tag { display: inline-block; background: var(--lamp); color: var(--ink); font-size: 15px; font-weight: 700; border-radius: 999px; padding: 2px 12px; }
+.soon h3 { font-family: "Gowun Batang", serif; font-size: 24px; line-height: 1.4; margin: 10px 0 8px; }
+.soon p { margin: 0 0 8px; font-size: 17px; line-height: 1.7; color: #E6EFEB; }
+.soon .soon-note { margin: 12px 0 0; padding-top: 12px; border-top: 1px solid rgba(255,255,255,.25); font-size: 15px; color: #CFE0D9; }
+
 /* 바닥 */
 footer { margin-top: 48px; background: var(--surface); border-top: 1px solid var(--line); padding: 28px 0 40px; font-size: 15px; color: var(--muted); }
 footer nav { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-bottom: 14px; }

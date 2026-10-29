@@ -64,6 +64,8 @@ h2 { font-family: "Gowun Batang", serif; font-size: 26px; line-height: 1.35; mar
 }
 .card h3 { font-size: 20px; line-height: 1.4; margin: 0 0 6px; }
 .card p { margin: 0; color: var(--muted); font-size: 17px; }
+.card p.plus { margin-top: 12px; padding: 12px 14px; background: var(--primary-soft); border-radius: 12px; color: var(--ink); }
+.card p.plus strong { display: block; color: var(--primary); font-size: 15px; }
 .steps { counter-reset: s; list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
 .steps li {
   counter-increment: s; background: var(--surface); border: 1px solid var(--line); border-radius: 16px;

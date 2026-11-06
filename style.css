@@ -227,3 +227,24 @@ footer p { margin: 4px 0; }
 .help p { margin: 0; font-size: 17px; color: #E6EFEB; }
 .help a, .help b { color: #fff; }
 .guide-end { padding: 16px 0 8px; text-align: center; }
+
+/* 11-06 오후: 역할별 화면 말투·그림 부드럽게 */
+.role .hello { margin: 14px 0 0; font-size: 18px; font-weight: 700; color: var(--primary); }
+.role h1 { margin: 6px 0 10px; }
+.role .lede { margin: 0 0 24px; font-size: 18px; line-height: 1.7; color: #3E3E3A; }
+.pts li { padding: 18px 16px 18px 76px; background: var(--surface); border: 1px solid var(--line); }
+.pts li::before { content: none; }
+.pts li .ic {
+  position: absolute; left: 16px; top: 18px; width: 46px; height: 46px; border-radius: 50%;
+  background: var(--primary-soft); display: grid; place-items: center;
+}
+.pts li .ic svg { width: 26px; height: 26px; }
+.pts li.soon-pt::before { content: none; }
+.pts li.soon-pt .ic { background: #FBE7C2; }
+.pts strong { font-size: 20px; margin-bottom: 4px; }
+.pts span.d { display: block; font-size: 17px; line-height: 1.65; color: #3E3E3A; }
+.pts .soon-label { display: inline-block; margin-left: 6px; padding: 1px 8px; border-radius: 999px; background: #E0A458; color: var(--ink); font-size: 13px; font-weight: 700; vertical-align: 2px; }
+.warm { margin: 20px 0 0; padding: 16px 18px; border-left: 6px solid var(--lamp); background: var(--surface); border-radius: 12px; font-family: "Gowun Batang", serif; font-weight: 700; font-size: 19px; line-height: 1.6; }
+.pts span.d b { color: var(--primary-dark); }
+.movein strong { font-size: 17px; }
+.movein { line-height: 1.7; }

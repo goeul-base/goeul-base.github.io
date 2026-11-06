@@ -256,3 +256,9 @@ footer p { margin: 4px 0; }
 .phone a { display: block; }
 .phone img { display: block; width: 100%; height: auto; border-radius: 18px; border: 6px solid #1C1C1A; background: #1C1C1A; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
 .phone figcaption { margin-top: 8px; font-size: 15px; line-height: 1.5; color: #3E3E3A; text-align: center; font-weight: 700; }
+
+/* 11-06 저녁: 가이드는 차례에서 고른 부분만 */
+.gsec[hidden] { display: none; }
+.toc a[aria-current="true"] { background: var(--primary); color: #fff; border-color: var(--primary); }
+.toc-box { position: relative; }
+.gsec .up { font-weight: 700; }

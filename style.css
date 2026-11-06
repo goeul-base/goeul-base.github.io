@@ -248,3 +248,11 @@ footer p { margin: 4px 0; }
 .pts span.d b { color: var(--primary-dark); }
 .movein strong { font-size: 17px; }
 .movein { line-height: 1.7; }
+
+/* 11-06 저녁: 가이드에 실제 앱 화면 */
+.phones { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin: 4px 0 18px; }
+.phones.one { grid-template-columns: minmax(0, 260px); justify-content: center; }
+.phone { margin: 0; }
+.phone a { display: block; }
+.phone img { display: block; width: 100%; height: auto; border-radius: 18px; border: 6px solid #1C1C1A; background: #1C1C1A; box-shadow: 0 4px 14px rgba(0,0,0,.12); }
+.phone figcaption { margin-top: 8px; font-size: 15px; line-height: 1.5; color: #3E3E3A; text-align: center; font-weight: 700; }

@@ -262,3 +262,5 @@ footer p { margin: 4px 0; }
 .toc a[aria-current="true"] { background: var(--primary); color: #fff; border-color: var(--primary); }
 .toc-box { position: relative; }
 .gsec .up { font-weight: 700; }
+.others { flex-wrap: wrap; align-items: center; gap: 4px 18px; }
+.others span { font-size: 15px; color: var(--muted); }

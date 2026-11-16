@@ -266,7 +266,7 @@ footer p { margin: 4px 0; }
 .others span { font-size: 15px; color: var(--muted); }
 
 /* 소개 영상 (11-16) */
-.intro-video { margin: 0 0 24px; }
-.intro-video figcaption { font-size: 19px; font-weight: 700; margin-bottom: 10px; color: #fff; }
-.intro-video figcaption span { font-weight: 400; font-size: 16px; color: #CFE0D9; margin-left: 6px; }
+.intro-video { margin: 24px 0 0; }
+.intro-video figcaption { font-size: 19px; font-weight: 700; margin-bottom: 10px; color: var(--primary-dark); }
+.intro-video figcaption span { font-weight: 400; font-size: 16px; color: var(--muted); margin-left: 6px; }
 .intro-video video { display: block; width: 100%; aspect-ratio: 16 / 9; height: auto; border-radius: 16px; background: #000; box-shadow: 0 6px 20px rgba(0,0,0,.25); }
